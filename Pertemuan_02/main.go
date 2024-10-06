@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	// var panjang, lebar, tinggi, volume float32
 	// panjang = 10.5
@@ -14,7 +16,7 @@ func main() {
 
 	namaMahasiswa := "Agus Harjkoko"
 	umur := 20
-	// fmt.Println("Nama saya adalah", namaMahasiswa)
-	// fmt.Println("Umur saya adalah", umur)
+	fmt.Println("Nama saya adalah", namaMahasiswa)
+	fmt.Println("Umur saya adalah", umur)
 	// fmt.Println("Alamat memori dari variabel namaMahasiswa adalah", &namaMahasiswa)
 }
